@@ -1,48 +1,31 @@
-body {
-    background-color: #f8f8f8;
-    font-family: Arial, sans-serif;
+h1{
+	text-align:center;
 }
-
-.book-library {
-    background-color: #ffffff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.book {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    width: 30%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.book img {
-    width: 100%;
+.book>img{
+	background-color: #ffffff;
+	width: auto%;
     max-height: 200px;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto;
+	padding:40px;
+/* 	object-fit: cover; */
+	
 }
 
-.book h3 {
-    color: #333;
-    margin: 10px 0;
+.center {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  
 }
-
-.book p.author {
-    color: #777777;
+.author{
+	color: #777777;
 }
-
-.price-block {
-    background-color: #2ecc71;
+.price-block{
+	background-color: #2ecc71;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
-    font-weight: bold;
-    text-align: center;
-}
+	font-weight: bold;
+    text-align: center; 	
+} 
+    
+    
